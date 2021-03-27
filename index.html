@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Bike Atelier</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <div class="logo">Bike Atelier</div>
+    <img src="bg.jpg" class="bg">
+    <div class="content">
+      <h2>Cycling improves mental well-being. Let's do it!</h2>
+      <p></p>
+      <p>Riding a bike is healthy, fun and a low-impact form of exercise for all ages.</p>
+      <p>Cycling is a great way to exercise – and exercising in a fun, enjoyable way – that also enhances your life.</p>
+      <br><br>
+      <p><img src="einstein.jpg"><br>— Albert Einstein</p>
+      <a href="#">Get Started</a>
+        <p class="copyrightText">@2021. Bike Atelier</p>
+      </section>
+
+      <div class="menuToggle" onclick="toggleMenu();"></div>
+      <div class="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="socialBar">
+        <ul>
+          <li><a href="#"><img src="facebook.png"></a></li>
+          <li><a href="#"><img src="twitter.png"></a></li>
+          <li><a href="#"><img src="instagram.png"></a></li>
+        </ul>
+        <a href="mailto:your@email.com" class="emailBx"><img src="email.png"></a>
+      </div>
+
+  </div>
+
+  <script type="text/javascript">
+    function toggleMenu(){
+      var menuToggle = document.querySelector('.menuToggle');
+      var menuToggle = document.querySelector('.navigation');
+      menuToggle.classList.toggle('active');
+      navigation.classList.toggle('active');
+    }
+  </script>
+  </body>
+  </html>
